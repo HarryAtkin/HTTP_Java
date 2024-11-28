@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    padding: 4rem 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+
+    align-items: center;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: hotpink;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+#one{
+    background-image: linear-gradient(to right, hotpink 50%, darkviolet 50%);
+    background-size: 200%;
+    transition: 0.4s ease-out;
+}
+#one:hover{
+    background-position: right;
+}
